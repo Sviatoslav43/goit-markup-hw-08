@@ -1,0 +1,25 @@
+.header-contact {
+    margin-left: auto;
+}
+
+.header-link-div:not(:last-child) {
+    margin-right: 50px;
+}
+
+.list-contact {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: var(--accent-txt-cl);
+    
+    &:hover {
+        color: var(--blue-color);
+    }
+}
+
+
+.header-icon {
+    fill: currentColor;
+    margin-right: 10px
+}

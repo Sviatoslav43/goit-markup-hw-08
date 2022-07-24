@@ -1,0 +1,34 @@
+.checkbox--top {
+    margin-top: 20px;
+}
+
+.checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.checkbox--hidden {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: absolute;
+}
+
+.checkbox__icon {
+    fill: #ffffff;
+    width: 16px;
+    height: 15px;
+    border: 1px solid var(--secondary-txt-cl);
+    border-radius: 2px;
+    padding: 3px 2px;
+    margin-right: 9px;
+
+    .checkbox--hidden:checked + & {
+        background-color: var(--blue-color);
+        border: transparent;
+        outline: transparent;
+        background-origin: border-box;
+    }
+}

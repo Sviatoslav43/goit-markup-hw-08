@@ -1,0 +1,33 @@
+.footer_address {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.footer_item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.footer_item {
+    text-decoration: none;
+    line-height: 1.71;
+    font-style: normal;
+    font-size: 14px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer_link {
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
+.address-street {
+    color: var(--white-clr);
+}
+
+.footer_link:hover,
+.footer_link:focus,
+.address-street:hover,
+.address-street:focus {
+    color: #188CE8;
+}

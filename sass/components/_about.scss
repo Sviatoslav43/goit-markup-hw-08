@@ -1,0 +1,31 @@
+.about__blocks:not(:last-child) {
+    margin-right: 30px;
+}
+
+.about__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+}
+
+.about__name {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--secondary-txt-cl);
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+}
+
+.about__text {
+    line-height: 1.71;
+    font-size: 14px;
+    margin: 0px;
+    flex-basis: 270px;
+}

@@ -1,0 +1,22 @@
+.example__text {
+    padding: 20px 24px;
+}
+
+.example__title {
+    display: flex;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    color: var(--secondary-txt-cl);
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    margin: 0px;
+    margin-bottom: 4px;
+}
+
+.example__subtitle {
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--accent-txt-cl);
+    margin: 0px;
+}
