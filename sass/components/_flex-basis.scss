@@ -6,4 +6,16 @@
 
 .card-item {
     flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
+
+    @media screen and (min-width:1px) {
+        --items: 1;
+    }
+
+    @media screen and (min-width:768px) {
+        --items: 2;
+    }
+
+    @media screen and (min-width:1200px) {
+        --items: 3;
+    }
 }

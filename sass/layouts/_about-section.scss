@@ -1,3 +1,11 @@
 .about__section {
-    @include section (94px, 0px);
+    @include section (60px, 60px);
+
+    @media screen and (min-width: 768px) {
+        @include section (60px, 60px);
+    }
+
+    @media screen and (min-width: 1200px) {
+        @include section (94px, 0px);
+    }
 }

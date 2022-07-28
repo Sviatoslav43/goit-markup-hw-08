@@ -1,15 +1,37 @@
-.about__blocks:not(:last-child) {
-    margin-right: 30px;
+.about__list {
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.about__blocks {
+   width: 450px;
+
+   @media screen and (min-width: 768px) {
+    width: 354px;
+   }
+
+    @media screen and (min-width: 1200px) {
+        width: 270px;
+    }
 }
 
 .about__icon {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 270px;
+    width: 450px;
     height: 120px;
     background-color: #F5F4FA;
     border-radius: 4px;
+
+    @media screen and (min-width: 768px) {
+        width: 354px;
+    }
+        
+    @media screen and (min-width: 1200px) {
+        width: 270px;
+    }
+
 }
 
 .about__name {
@@ -20,7 +42,11 @@
     text-transform: uppercase;
     margin-top: 30px;
     margin-bottom: 10px;
-
+    text-align: center;
+    
+    @media screen and (min-width:768px) {
+        text-align: left;
+    }
 }
 
 .about__text {
@@ -28,4 +54,9 @@
     font-size: 14px;
     margin: 0px;
     flex-basis: 270px;
+    text-align: center;
+
+    @media screen and (min-width:768px) {
+        text-align: left;
+    }
 }

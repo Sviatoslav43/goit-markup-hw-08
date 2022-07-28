@@ -1,3 +1,9 @@
 .logo__footer {
     color: var(--white-clr);
 }
+
+.logo--position {
+    @media screen and (max-width: 1199px) {
+        margin: 0;
+    }
+}

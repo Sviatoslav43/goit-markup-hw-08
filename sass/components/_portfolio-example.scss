@@ -1,6 +1,12 @@
 .portfolio-example__list {
     list-style: none;
     padding: 0px;
+    margin: 0;
+    margin-bottom: 60px;
+
+    @media screen and (min-width:1200px) {
+        margin-bottom: 94px;
+    }
 }
 
 .portfolio-example__item {

@@ -15,8 +15,13 @@
 
 .form__set {
     display: block;
-    width: 448px;
+    width: 370px;
     height: 40px;
+
+    @media screen and (min-width: 1200px) {
+        width: 448px
+    }
+
 }
 
 .form__position {
@@ -25,7 +30,7 @@
 
 .form__input {
     display: block;
-    width: 448px;
+    width: 100%;
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
@@ -45,7 +50,7 @@
 }
 
 .form__feedback {
-    width: 448px;
+    width: 100%;
     height: 120px;
     resize: none;
     font-size: 12px;

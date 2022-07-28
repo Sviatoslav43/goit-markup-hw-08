@@ -1,8 +1,20 @@
 .container {
-    width: 1200px;
+    width: 100%;
     padding: 0 15px;
     margin-left: auto;
     margin-right: auto;
+
+    @media screen and (min-width: 480px) {
+        max-width: 480px;
+    }
+
+    @media screen and (min-width: 768px) {
+        max-width: 768px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        max-width: 1200px;
+        }
 }
 
 .header-container {
@@ -11,17 +23,65 @@
 
 .hero-container {
     background-color: var(--secondary-bg-cl);
-    background-image: 
-    linear-gradient(rgba(47, 48, 58, 0.4),
-    rgba(47, 48, 58, 0.4)),
-    url(../images/photo-hero.jpg);
     max-width: 1600px;
     height: 600px;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     margin-left: auto;
     margin-right: auto;
-
     padding-top: 200px;
     padding-bottom: 200px;
+    background-image:
+        linear-gradient(rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+        url(../images/hero/hero_s.jpg);
+
+
+    @media (min-device-pixel-ratio: 2),
+        (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            background-image:
+                linear-gradient(rgba(47, 48, 58, 0.4),
+                 rgba(47, 48, 58, 0.4)),
+                url(../images/hero/hero@2x_s.jpg);
+
+    }
+            
+    @media screen and (min-width: 768px) {
+        background-image:
+            linear-gradient(rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+             url(../images/hero/hero_m.jpg);
+            
+         // Для ретіна екранів tablet
+    @media (min-device-pixel-ratio: 2),
+        (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        background-image:
+            linear-gradient(rgba(47, 48, 58, 0.4),
+             rgba(47, 48, 58, 0.4)),
+            url(../images/hero/hero@2x_m.jpg);
+        }
+    }
+            
+    @media screen and (min-width: 1200px) {
+        background-image: 
+            linear-gradient(rgba(47, 48, 58, 0.4),
+             rgba(47, 48, 58, 0.4)),
+            url(../images/hero/hero_l.jpg);
+            
+        // Для ретіна екранів desktop
+    @media (min-device-pixel-ratio: 2),
+        (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            background-image: 
+                linear-gradient(rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)),
+                url(../images/hero/hero@2x_l.jpg);
+        }
+    }
 }

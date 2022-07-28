@@ -1,12 +1,20 @@
 .company__item {
-    --items: 6;
+    --items: 2;
+
+    @media screen and (min-width: 768px) {
+        --items: 3;
+    }
+    
+    @media screen and (min-width: 1200px) {
+        --items: 6;
+    }
 }
 
 .company__icon {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 170px;
+    width: 210px;
     height: 92px;
     fill: #AFB1B8;
     border: 1px solid #AFB1B8;
@@ -19,5 +27,14 @@
         fill: var(--blue-color);
         border: 1px solid var(--blue-color);
     }
+
+    @media screen and (min-width: 768px) {
+       width: 226px;
+    }
+    
+    @media screen and (min-width: 1200px) {
+        width: 170px;
+    }
+
 }
 

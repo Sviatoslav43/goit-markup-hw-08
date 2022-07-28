@@ -1,25 +1,36 @@
 .modal {
     position: absolute;
-    width: 528px;
-    height: 581px;
+    width: 450px;
+    height: 609px;
     padding: 40px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgba(255, 255, 255, 1);
     border-radius: 4px;
+
     box-shadow:
         0 1px 3px rgba(0, 0, 0, 0.12),
         0 1px 1px rgba(0, 0, 0, 0.14),
         0 2px 1px rgba(0, 0, 0, 0.2);
+
+    @media screen and (min-width: 1200px) {
+        width: 528px;
+        height: 581px;
+    }
 }
 
 .modal__header {
     font-family: var(--main-fonts);
     font-weight: 700;
     font-size: 20px;
-    line-height: 1.15;
+    line-height: 1.5;
     color: var(--secondary-txt-cl);
     margin: 0;
     margin-bottom: 12px;
+    text-align: center;
+
+    @media screen and (min-width: 1200px) {
+        line-height: 1.15;
+    }
 }

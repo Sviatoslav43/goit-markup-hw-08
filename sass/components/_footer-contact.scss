@@ -2,6 +2,10 @@
     display: flex;
     flex-direction: column;
     margin-top: 20px;
+
+    @media screen and (max-width: 1199px) {
+        align-items: center;
+    }
 }
 
 .footer_item:not(:last-child) {
