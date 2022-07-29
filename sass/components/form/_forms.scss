@@ -15,8 +15,12 @@
 
 .form__set {
     display: block;
-    width: 370px;
-    height: 40px;
+    width: 100%;
+
+    @media screen and (min-width: 480px) {
+        width: 370px;
+        height: 40px;
+    }
 
     @media screen and (min-width: 1200px) {
         width: 448px

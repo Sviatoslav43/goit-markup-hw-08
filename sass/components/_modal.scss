@@ -1,6 +1,6 @@
 .modal {
     position: absolute;
-    width: 450px;
+    width: 100vw;
     height: 609px;
     padding: 40px;
     top: 50%;
@@ -13,6 +13,17 @@
         0 1px 3px rgba(0, 0, 0, 0.12),
         0 1px 1px rgba(0, 0, 0, 0.14),
         0 2px 1px rgba(0, 0, 0, 0.2);
+
+
+    @media screen and (min-width: 480px) {
+        width: 450px;
+        height: 609px;
+    }
+    
+    @media screen and (min-width: 768px) {
+        width: 450px;
+        height: 609px;
+    }
 
     @media screen and (min-width: 1200px) {
         width: 528px;
