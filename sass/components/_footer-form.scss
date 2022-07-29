@@ -1,7 +1,7 @@
 .footer__form {
     display: flex;
     color: var(--white-clr);
-    width: 450px;
+    width: 100%;
     height: 50px;
     padding: 15px;
     font-size: 16px;
@@ -13,15 +13,16 @@
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
     margin-right: 12px;
     outline: transparent;
+    margin-left: auto;
+    margin-right: auto;
 
     &:focus {
         border-color: var(--blue-color);
+    }  
+
+    @media screen and (min-width: 768px) {
+        width: 450px;
     }
-
-        margin-left: auto;
-        margin-right: auto;
-
-    
     
     @media screen and (min-width: 1200px) {
         margin: 0;
