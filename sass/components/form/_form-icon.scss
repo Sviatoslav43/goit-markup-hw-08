@@ -11,8 +11,8 @@
         fill: var(--blue-color);
     }
 
-    .form__input:focus+&,
-    .form__input:hover+& {
+    .form__input:focus + &,
+    .form__input:hover + & {
         fill: var(--blue-color);
     }
 }

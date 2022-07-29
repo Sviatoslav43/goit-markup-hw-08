@@ -350,8 +350,8 @@ img {
 
 .modal {
   position: absolute;
-  width: 100vw;
-  height: 609px;
+  width: calc(100% - 30px);
+  height: auto;
   padding: 40px;
   top: 50%;
   left: 50%;
