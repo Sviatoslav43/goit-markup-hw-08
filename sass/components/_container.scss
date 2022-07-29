@@ -23,15 +23,15 @@
 
 .hero-container {
     background-color: var(--secondary-bg-cl);
-    max-width: 1600px;
-    height: 600px;
+    max-width: 1200px;
+    height: 400px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 118px;
+    padding-bottom: 118px;
     background-image:
         linear-gradient(rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)),
@@ -68,6 +68,10 @@
     }
             
     @media screen and (min-width: 1200px) {
+        max-width: 1600px;
+        height: 600px;
+        padding-top: 200px;
+        padding-bottom: 200px;
         background-image: 
             linear-gradient(rgba(47, 48, 58, 0.4),
              rgba(47, 48, 58, 0.4)),

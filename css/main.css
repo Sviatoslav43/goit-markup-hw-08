@@ -100,15 +100,15 @@ img {
 
 .hero-container {
   background-color: var(--secondary-bg-cl);
-  max-width: 1600px;
-  height: 600px;
+  max-width: 1200px;
+  height: 400px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 118px;
+  padding-bottom: 118px;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero/hero_s.jpg);
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero_s.jpg);
 }
@@ -132,6 +132,10 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .hero-container {
+    max-width: 1600px;
+    height: 600px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero/hero_l.jpg);
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero_l.jpg);
   }
@@ -479,17 +483,12 @@ img {
   margin: 0px;
   -ms-flex-preferred-size: 270px;
       flex-basis: 270px;
-  text-align: center;
-}
-@media screen and (min-width: 768px) {
-  .about__text {
-    text-align: left;
-  }
+  text-align: left;
 }
 
 .member {
   width: 450px;
-  height: 622px;
+  height: auto;
   background-color: var(--white-clr);
   --items: 1;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -986,7 +985,7 @@ img {
   font-size: 26px;
   color: var(--blue-color);
   line-height: 1.19;
-  margin-right: 94px;
+  margin-right: 88px;
 }
 
 .logo_header {
@@ -1006,12 +1005,6 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  max-width: 768px;
-}
-@media screen and (min-width: 768px) {
-  .header_desc {
-    max-width: 1200px;
-  }
 }
 
 .link-header-item {
@@ -1135,6 +1128,8 @@ img {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .list-contact {
     padding: 0;
+    font-size: 12px;
+    line-height: 1.17;
   }
 }
 
@@ -1284,7 +1279,7 @@ img {
   line-height: 1.17;
   color: var(--secondary-txt-cl);
   margin-top: 0px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -1293,7 +1288,7 @@ img {
   .title-caption {
     font-size: 36px;
     line-height: 1.16;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
 }
 
