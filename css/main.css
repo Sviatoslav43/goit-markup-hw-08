@@ -1132,7 +1132,11 @@ img {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  width: 360px;
+}
+@media screen and (min-width: 768px) {
+  .slogan {
+    width: 360px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .slogan {
