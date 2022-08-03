@@ -261,8 +261,9 @@ img {
   width: 18px;
   height: 18px;
   fill: var(--secondary-txt-cl);
+  transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
 }
 .form__input:focus-within + .form_icon {
   fill: var(--blue-color);

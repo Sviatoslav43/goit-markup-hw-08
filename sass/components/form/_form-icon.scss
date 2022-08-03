@@ -6,6 +6,9 @@
     height: 18px;
     fill: var(--secondary-txt-cl);
     transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+        
 
     .form__input:focus-within+& {
         fill: var(--blue-color);
